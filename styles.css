@@ -1,0 +1,398 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.main {
+    background-image: url("./assets/homebg.jpg");
+    object-fit: cover;
+    /* opacity: 0.7; */
+}
+
+.header {
+    background-color: #232643;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    padding-left: 1in;
+    padding-right: 1in;
+}
+
+.lheader {
+    display: flex;
+    align-items: center;
+}
+
+.lheader button {
+    border: 1px solid white;
+    background-color: #ffdf56;
+    color: white;
+    margin-left: 5px;
+    margin-right: 0.3in;
+    height: 0.4in;
+    padding-left: 0.3in;
+    padding-right: 0.3in;
+}
+
+.lheader p {
+    padding-left: 5px;
+    font-size: 18pt;
+    border-left: 1px solid white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding-left: 0.8in;
+    padding-right: 0.8in;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: white;
+}
+
+.navlist {
+    display: flex;
+}
+
+.ManguwoHostLogo {
+    padding: 8px;
+    height: 33px;
+    width: 226px;
+}
+
+.navlist li {
+    list-style-type: none;
+    color: gray;
+    margin-left: 0.2in;
+    margin-left: 0.2in;
+}
+
+.home {
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.HomeText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+    width: inherit;
+}
+
+.HomeElements {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    height: inherit;
+    width: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkDomain {
+    padding: 0.2cm;
+    background-color: #dcdcdc;
+}
+
+.checkDomain input[type=text] {
+    height: 0.4in;
+    margin-left: 1px;
+    border: none;
+}
+
+.checkDomain select {
+    height: 0.4in;
+    margin-left: 1px;
+    border: none;
+    background-color: #ffdf56;
+}
+
+.checkDomain input[type=button] {
+    height: 0.4in;
+    margin-left: 1px;
+    border: none;
+    background-color: #ffdf56;
+    color: white;
+}
+
+
+
+
+
+/* box part */
+
+.cotainer-2 {
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.container-2a {
+    border: 1px solid rgb(3, 3, 32);
+
+    background-color: rgb(3, 3, 32);
+    color: #fff;
+    float: left;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.container-2a3 {
+    background-color: rgb(3, 3, 32);
+    color: #fff;
+
+    border: 1px solid white;
+
+}
+
+.container-2b {
+
+    background-color: #f7e711;
+    width: 650px;
+    height: 350px;
+    float: right;
+    text-align: center;
+    /* padding: auto; */
+
+    padding-top: 200px;
+    border: 1px solid #f7e711;
+
+}
+
+.td2 {
+    color: black;
+    font-size: 24pt;
+
+
+}
+
+.container-2b5 {
+    color: #fff;
+
+}
+
+.container-2b4 {
+    background-color: #eee12c;
+    height: 40px;
+    width: 80px;
+    color: #fff;
+    border: 1px solid white;
+}
+
+/* feutures */
+.container-3 {
+    background-image: url("./assets/featurebg.png");
+}
+
+.td1 {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.container-2c {
+    padding: 20px;
+    padding-top: 80px;
+}
+
+.container-3c2 {
+    display: flex;
+
+    text-align: center;
+}
+
+.td {
+    color: #eee67c;
+
+}
+
+/*      ........ */
+
+
+
+
+/* client css  */
+
+.clientRow1 {
+    display: grid;
+    grid-gap: 1cm;
+    grid-template-columns: repeat(6, 1fr);
+    padding-right: 1in;
+    padding-top: 0.6in;
+    padding-left: 1in;
+    padding-bottom: 0.4in;
+    align-items: center;
+}
+
+.clientIntro {
+    grid-column: 1/3;
+}
+
+#clientIntroTitle {
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+#clientIntroText {
+    color: gray;
+}
+
+.clientCompanies {
+    grid-column: 3/7;
+}
+
+.clientRow2 {
+    display: grid;
+    grid-gap: 1cm;
+    grid-template-columns: repeat(3, 1fr);
+    padding-right: 1in;
+    padding-top: 0.4in;
+    padding-left: 1in;
+    padding-bottom: 1in;
+}
+
+.clientCard {
+    background-color: #faf9f9;
+    padding: 15px;
+    position: relative;
+}
+
+.clientFeedback {
+    font-style: italic;
+    color: #615f61;
+}
+
+.clientCard img {
+    border-radius: 50%;
+    border: 2px solid #dcdcdc;
+    position: absolute;
+    bottom: -46px;
+    right: 10px;
+}
+
+.btn {
+    border: 1px solid white;
+    background-color: #ffdf56;
+    color: white;
+}
+
+/* Pricing css  */
+
+.pricing {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: #232643;
+    padding-left: 2in;
+    padding-right: 2in;
+    padding-top: 0.6in;
+    padding-bottom: 0.6in;
+}
+
+.pricingText {
+    grid-column: 1/5;
+    align-self: center;
+}
+
+.pricingButton {
+    grid-column: 5/6;
+    align-self: center;
+}
+
+.pricingButton button {
+    height: 0.5in;
+}
+
+.pricingTextTitle {
+    color: white;
+    font-weight: bold;
+    font-size: 24pt;
+}
+
+.pricingTextSubTitle {
+    color: #606876;
+}
+
+/* footer css  */
+
+.footer {
+    background-color: #373b54;
+    position: relative;
+}
+
+.footerRow {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    padding: 1in;
+}
+
+.footerRow img {
+    grid-column: 1/9;
+    justify-self: center;
+    align-self: center;
+}
+
+.footerNavigation {
+    grid-column: 9/11;
+    justify-self: center;
+    align-self: center;
+    color: white;
+    text-align: end;
+}
+
+.footerNavigation p {
+    font-weight: bold;
+}
+
+.footerNavigationList li {
+    list-style-type: none;
+    padding-top: 0.3cm;
+    padding-bottom: 0.2cm;
+    padding-left: 0.7cm;
+    border-bottom: 1px solid white;
+
+}
+
+.footerNavigationList li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footerSocialLinks i {
+    margin-left: 18px;
+    color: #ffdf56;
+}
+
+.copyrightLine {
+    position: absolute;
+    bottom: 0px;
+    width: 100vw;
+    text-align: center;
+    color: white;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgb(102, 184, 252);
+    color: white;
+}
+
+a:visited {
+    color: rgb(14, 13, 13);
+
+}
+
+.container-2c img {
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
